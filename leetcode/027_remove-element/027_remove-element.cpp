@@ -30,7 +30,7 @@ public:
     }
 };
 
-int printVector(std::vector<int>& nums){
+void printVector(std::vector<int>& nums){
   std::cout << "Vector elements: ";
   for (int i: nums)
     std::cout << i << ',';
